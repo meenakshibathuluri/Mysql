@@ -1,0 +1,69 @@
+1.What is Database?
+   a.any sort of information that is stored
+   b.collection of program to access data
+   c.An organised collection of data
+ans : c.An organised collection of data
+2.key/value, graph, document, column-family databases come under which type of database?
+   a.Relational database
+   b.Non-relational database
+   c.hierarchical database
+ans : b.Non-relational database
+3.What is data?
+   a.any sort of information that is stored
+   b.organised collection of data
+ans : a.any sort of information that is stored
+4.in a relational database, data is organised as 
+   a.collection of common fields
+   b.a collection of records
+   c.element
+   d.tables
+ans : d.tables
+5.which of the following statements is/are true with respect to DBMS
+   A.DBMS is used to create database
+   B.DBMS is used to retrieve data
+   C.DBMS is used to administer database
+      a.options A,B and c are correct
+      b.options A and c are correct
+      c.options B and C are correct
+      d.options B is correct
+ans : a.options A,B and c are correct
+6.which of following statements is/are true about DBMS?
+   A.stores and maintains the data securely
+   B.provides simpler ways to create and update data at the rate it is generated and updated respectively
+   C.ensures Durability and provides access to all clients at any point in time
+   D.provides Quick access to all the clients
+      a.options A,B,C and D are correct
+      b.options A,B and D are correct
+      c.options A,B and C are correct
+      d.options A,C and D are correct
+ans : a.options A,B,C and D are correct
+7.which of the following statements is/are true with respect to the following tables?
+      name       age      score
+      ravi       29        2699
+      ram        27        4782
+      pavan      27        3956
+      meena      28        3956
+        a.tables has 3 column and 5 rows
+        b.tables has 4 column and 4 rows
+        c.tables has 3 column and 4 rows
+        d.tables has 4 column and 3 rows
+ans :   d.tables has 4 column and 3 rows
+8.state which of the following is true:
+   A.Database is used to manage a DBMS
+   B.DBMS is used to manage a Database
+      a.options A is correct
+      b.options B is correct
+ans : b.options B is correct
+9. in relational database should all the values in a row in a table must be of the same data type?
+   a.yes
+   b.No
+ans : b.no      
+10.database management system (DBMS) is
+   a.a software that is used to easily store and access data from the database in a secure ways
+   b.any sort of information
+   c.organised collection of data
+ans : a.a software that is used to easily store and access data from the database in a secure ways
+11.in relational database should all the values in a column in a table must be of the same data type?
+   a.yes
+   b.No       
+ans : a.yes      
