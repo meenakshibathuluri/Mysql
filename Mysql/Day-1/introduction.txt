@@ -1,0 +1,10 @@
+Database : an organised collection of data is called a database.
+DBMS full form 
+1. database management system
+2.a software that is used to easily store and access data from the database in a secure way.
+Advantages : 
+1.security : Data is stored and maintained securely
+2.Ease of use : provides simpler ways to create and update data at the rate it is generated and updated respectively.
+3.Durability and Availability : Durable and provides access to all the clients at any point in time.
+4.Performance : Quickly accessible to all clients(applications and stakeholders).  
+  
