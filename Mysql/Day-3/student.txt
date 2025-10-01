@@ -1,0 +1,5 @@
+CREATE TABLE student.details(
+name varchar(200),
+date_of_birth DATE,
+address TEXT
+);
