@@ -1,0 +1,53 @@
+//create//
+CREATE TABLE employee.details(
+employee int,
+name varchar(250),
+salary int
+);
+
+//INSERT//
+INSERT INTO employee.details(
+employee,
+name,
+salary
+) values (
+1,
+"Madhu",
+15000
+);
+INSERT INTO employee.details(
+employee,
+name,
+salary
+) values (
+2,
+"Vishnu",
+20000
+);
+INSERT INTO employee.details(
+employee,
+name,
+salary
+) values (
+3,
+"Raju",
+16000
+);
+INSERT INTO employee.details(
+employee,
+name,
+salary
+) values (
+4,
+"Shalini",
+20000
+);
+INSERT INTO employee.details(
+employee,
+name,
+salary
+) values (
+5,
+"Geetha",
+13000
+);

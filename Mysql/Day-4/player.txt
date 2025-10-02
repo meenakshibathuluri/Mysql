@@ -1,0 +1,52 @@
+** this is how to create table
+CREATE TABLE player.list(
+name VARCHAR(200),
+data_of_brith DATE,
+address TEXT
+);
+
+** this is how insert table 
+INSERT INTO player.list(
+name,
+data_of_brith,
+address
+) values 
+("meena", "2007-06-20","village"),
+("usha", "2006-03-17","thirupathi"),
+("rani", "2000-01-06","bangalore");
+
+**how SELECT one column
+SELECT name
+FROM
+player.list;
+
+** how to SELECT two column
+SELECT name,data_of_brith
+FROM
+player.list;
+
+** they to SELECT all the element in column
+SELECT name,data_of_brith,address
+FROM
+player.list;
+
+** how SELECT one rows only name
+SELECT * FROM
+player.list
+WHERE name="meena";
+
+**how SELECT two rows and we are SELECTing name ,data_of_brith
+SELECT name,data_of_brith
+FROM
+player.list
+WHERE name="rani";
+
+**how SELECT one full we are SELECTing name,data_of_brith,address
+SELECT name,data_of_brith,address
+FROM
+player.list
+WHERE name="usha";
+
+** how to SELECT all address are
+SELECT * FROM player.list
+WHERE address="village";
