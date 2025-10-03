@@ -1,0 +1,18 @@
+CREATE TABLE student1.scholarship(
+name varchar(200),
+precentage INT,
+scholarship_amount INT
+);
+SELECT * FROM student1.scholarship;
+ans:name precentage scholarship_amount
+INSERT INTO student1.scholarship(
+name,
+precentage,
+scholarship_amount
+) values 
+("Ramesh", "82", "10000"),
+("Mahesh", "85", "11000");
+SELECT * FROM student1.scholarship;
+ans : Ramesh 82 10000
+      Mahesh 85 11000
+      
