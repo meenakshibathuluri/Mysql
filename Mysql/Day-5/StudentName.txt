@@ -15,4 +15,9 @@ scholarship_amount
 SELECT * FROM student1.scholarship;
 ans : Ramesh 82 10000
       Mahesh 85 11000
-      
+UPDATE student1.scholarship
+SET scholarship_amount = 50000
+WHERE name = "Mahesh";
+SELECT * FROM student1.scholarship;
+ans: Ramesh 82 10000
+     Mahesh 85 50000      
