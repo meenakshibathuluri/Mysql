@@ -1,0 +1,43 @@
+CREATE TABLE mysql_learning.student2(
+name VARCHAR(200),
+age INTEGER,
+salary INTEGER
+);
+
+SELECT * FROM mysql_learning.student2;
+
+INSERT INTO mysql_learning.student2(
+name,
+age,
+salary)
+VALUES
+("meena", "19", "40000"),
+("rani", "26", "50000"),
+("usha", "20", "6000");
+
+SELECT * FROM mysql_learning.student2;
+meena 19 40000
+rani 26 50000
+usha 20 6000
+
+SELECT name, age
+FROM mysql_learning.student2;
+
+SET SQL_SAFE_UPDATES = 0;
+
+UPDATE mysql_learning.student2
+SET salary=50000;
+
+DELETE FROM 
+mysql_learning.student2;
+
+DELETE FROM
+mysql_learning.student2
+WHERE
+name = "meena";
+
+DROP TABLE mysql_learning.student2;
+
+ALTER TABLE mysql_learning.student2
+ADD
+  column_name INTEGER;

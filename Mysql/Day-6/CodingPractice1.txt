@@ -1,0 +1,54 @@
+1.CREATE a student table to store name,age,score of students
+CREATE TABLE mysql_learning.details(
+name VARCHAR(200),
+age INTEGER,
+score INTEGER
+);
+
+2.in a typical e-commerce application,we need to store the following customer details.CREATE a customer table table to store the data.
+CREATE TABLE mysql_learning.details2(
+customer_id INTEGER,
+frist_name VARCHAR(200),
+last_name VARCHAR(200),
+date_of_birth DATE,
+address TEXT,
+phone_number INTEGER
+);
+
+3.WE need to store the details of orders in an a-commerce application.CREATE an order_details table to store the following details
+CREATE TABLE mysql_learning.details3(
+order_id INTEGER,
+customer_id INTEGER,
+order_datetime DATETIME,
+shipped_datetime DATETIME,
+total_amount FLOAT
+);
+
+4.
+SET SQL_SAFE_UPDATES = 0;
+UPDATE mysql_learning.details4
+SET name = "ram";
+UPDATE mysql_learning.details4
+SET age = 24;
+UPDATE mysql_learning.details4
+SET score = 30;
+
+5.
+CREATE TABLE mysql_learning.student4(
+    name VARCHAR(200),
+    age INTEGER,
+    score INTEGER
+);
+SELECT * FROM mysql_learning.student4;
+INSERT INTO mysql_learning.student4(
+name,age,score
+) VALUES
+("Suresh", "21", "70"),
+("Venkat", "21", "43");
+
+6.
+DELETE FROM
+mysql_learning.student2
+WHERE
+name = "Venkat";
+

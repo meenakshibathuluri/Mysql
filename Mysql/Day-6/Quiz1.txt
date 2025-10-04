@@ -1,0 +1,29 @@
+1.Which sql statement is used to CREATE a new table?
+ans : CREATE, the CREATE table statement is used to create a new table in a database
+
+2.What does the sql acronym CRUD stant for?
+ans : create retrieves update delete. Which are the basic opertions in database management systems
+
+3. Which sql statement is used to insert new data into a table?
+ans : insert, the insert into statement is used  to insert new records into a table
+
+4.What does the sql keyword delete do?
+ans : removes specific rows from a table, the delete statement is used to remove specific records from a table
+
+5.Which sql statement is used to update existing data in a table?
+ans : update, the update statement is used to modify the existing records in a table
+
+6.What does the sql keyword select do?
+ans : retrieves data from a database
+
+7.Which sql statement is used to delete a table from a database?
+ans : drop, the drop table statement is used to delete a table from a database
+
+8.What does the sql keyword insert into do?
+ans : insert new records into a table
+
+9.Which sql statement is used to modify the structure of an existing table?
+ans : alter
+
+10.what does the sql keyword update do?
+ans : modifies existing records in a table

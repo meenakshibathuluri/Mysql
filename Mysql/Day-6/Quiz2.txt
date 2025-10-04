@@ -1,0 +1,60 @@
+1.suppose that you've to create a book table Which stores the title of books and its summary title
+ would be a maximum of 250 characters and summary size is unknown.
+  which of the following are approprite for creating a table?
+  a.use text for title and varchar for summary columns
+  b.use varchar for title and text for summary columns
+  ans : b.correct
+
+2.sql is used to perform opertation an 
+a.non-relational dbms
+b.relational dbms
+ans : b.relational dbms
+
+3.sql stands for 
+a.standard query language
+b.simple query language
+c.structured query language
+ans : c.structured query language
+
+4.which of the following clauses is used to add a new table to the database
+ans : create
+
+5.which of the following data type can be used to store the value 423.0?
+ans : float
+
+6.given a player table and a sql query as below,what is the output of the query?
+ name       age     score
+ ram        29      2699
+ joy        27      4782
+ tara       27      3956
+ SELECT name,no_of_centuries
+ FROM player;
+ ans : fetches name and no_of_centuries of all player fromthe playertable
+
+ 7.which sql query can be used to create a player table with the columns mentioned as following?
+ column_name        database
+ name               string of max length 250
+ age                integer
+ score              integer
+ ans : CREATE TABLE player(
+    name VARCHAR(250),
+    age INTEGER,
+    score INTEGER
+ );
+
+ 8.which of the following statement is incorrect?
+ ans : we can store any number of characters using VARCHAR
+
+ 9.given a player tanle as below, which query can be  used to fetch all the player names in the table?
+ name       age        score
+ ram        29          2699
+ joy        27          4782
+ tara       27          3956
+ ans : INSERT INTO player(
+    name, age, score
+ ) values
+ ("joy", "21", "4000");
+
+ 10.which sql clauses can be used to retrieves data?
+ ans : select
+ 
