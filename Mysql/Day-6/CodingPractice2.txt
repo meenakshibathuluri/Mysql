@@ -1,0 +1,31 @@
+1.INSERT INTO mysql_learning.player1(
+    name,age,score
+) VALUES 
+("raj", "26", "120");
+
+2.INSERT INTO mysql_learning.player1(
+    name,age,score
+) VALUES 
+("ram", "28", "125"),
+("charan", "25", "173"),
+("ravan", "20", "152);
+
+3.SELECT * FROM mysql_learning.player1;
+
+4.UPDATE mysql_learning.player1
+SET age = 30
+WHERE name = "Shyam";
+
+5.DELETE FROM mysql_learning.player1
+WHERE name = "David";
+
+6.ALTER TABLE mysql_learning.player1
+ADD strike_rate FLOAT;
+
+7.SELECT name, age
+FROM mysql_learning.player1;
+
+8.ALTER TABLE mysql_learning.player1
+RENAME COLUMN name TO full_name;
+
+9.DROT TABLE mysql_learning.player1;
