@@ -1,0 +1,19 @@
+1.SELECT * FROM mysql_learning.poduct1
+WHERE price <=1000;
+
+2.SELECT * FROM mysql_learning.poduct1
+WHERE rating < 4.0;
+
+3.SELECT * FROM mysql_learning.product1
+WHERE brand = "Puma";
+
+4.SELECT * FROM mysql_learning.poduct1
+WHERE category = "Jeans";
+
+5.SELECT * FROM mysql_learning.poduct1
+WHERE name = "Bourbon";
+
+6.SELECT * FROM mysql_learning.poduct1
+WHERE name = "chips";
+
+7.

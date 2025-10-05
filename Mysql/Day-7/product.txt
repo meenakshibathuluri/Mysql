@@ -1,0 +1,59 @@
+CREATE TABLE mysql_learning.product1(
+name VARCHAR(200),
+category VARCHAR(100),
+price INTEGER,
+brand VARCHAR(100),
+rating INTEGER
+);
+
+SELECT *FROM mysql_learning.product1;
+
+INSERT INTO mysql_learning.product1(
+name,
+category,
+price,
+brand,
+rating
+) VALUES
+("Blue Shirt", "Clothing", "750", "Denim", "3.8"),
+("Blue Jeans", "Clothing", "800", "Puma", "3.6"),
+("Blue Jeans", "Clothing", "750", "Denim", "4.5"),
+("Blue Shirt", "Clothing", "1000", "Puma", "4.3"),
+("Chocolate Cake", "Food", "25", "Britannia", "3.7"),
+("Strawberry Cake", "Food", "60", "Cadbury", "4.1"),
+("Chocolate Cake", "Food", "60", "Cadbury", "2.5"),
+("Strawberry Cake", "Food", "10", "Britannia", "4.6"),
+("Smart Watch", "Gadgets", "17000", "Apple", "4.9"),
+("Smart Cam", "Gadgets", "2600", "Reaime", "4.7"),
+("Smart TV", "Gadgets", "40000", "Sony", "4.0"),
+("Bourbon Small", "Food", "10", "Britannia", "3.9"),
+("Bourbon Special", "Food", "15", "Britannia", "4.6"),
+("Bourbon With Extra Coookies", "Food", "30", "Britannia", "4.4"),
+("White Shirt","Clothing","700", "Denim","4.3"),
+("Black Shirt","Clothing","600","Puma","4.8"),
+("Black T-Shirt","Clothing","600","Roadster","4.2"),
+("White T-Shirt","Clothong","700","Levi's","4.0"),
+("Blue T-Shirt","Clothing","600","Nike","4.7"),
+("Reaime Smart Band","Gadgets","3000","Reaime","4.6"),
+("Raw Cashew","Food","370","Absa","3.9"),
+("Cashew Nuts","Food","550","Upcrop","4.3"),
+("Chocolate Cashew","Food","670","Urban Platter","3.5"),
+("Potato Chips india's Magic Masala","Food","42","Lay's","4.4"),
+("Banana Chips","Food","550","Calicut Kerala","4.3"),
+("Potato Chips Cream and Onion","Food","63","Lay's","4.5"),
+("Potato Chips Classic Salted","Food","45","Lay's","4.0"),
+("Harry Potter and the Philosopher's Stone","Novel","222",null,"4.7"),
+("Harry Potter and the Chamber of Secrets","Novel","343",null,"4.4"),
+("Harry Potter and the Prisoner of Azkaban","Novel","284",null,"4.6"),
+("OnPlus 6T","Smartphone","32990","OnePlus","4.5"),
+("Redmi K20","Smartphone","24999","Redmi","4.1");
+
+SELECT * FROM mysql_learning.poduct1
+WHERE category = "Food";
+
+SELECT * FROM mysql_learning.poduct1
+WHERE rating >= "5.0";
+
+SELECT * FROM mysql_learning.poduct1
+WHERE rating <= "4.0";
+
