@@ -57,3 +57,11 @@ WHERE rating >= "5.0";
 SELECT * FROM mysql_learning.poduct1
 WHERE rating <= "4.0";
 
+SELECT * FROM mysql_learning.poduct1
+WHERE name LIKE "Raw%";
+
+SELECT * FROM mysql_learning.product1
+WHERE rating LIKE ""H__R_"; 
+
+SELECT * FROM mysql_learning.poduct1
+WHERE category = "%Jeans";

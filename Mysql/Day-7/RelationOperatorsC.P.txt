@@ -5,15 +5,16 @@ WHERE price <=1000;
 WHERE rating < 4.0;
 
 3.SELECT * FROM mysql_learning.product1
-WHERE brand = "Puma";
+WHERE brand LIKE "Puma";
 
 4.SELECT * FROM mysql_learning.poduct1
-WHERE category = "Jeans";
+WHERE category = "%Jeans";
 
-5.SELECT * FROM mysql_learning.poduct1
-WHERE name = "Bourbon";
+5.SELECT * FROM mysql_learning.product1
+WHERE name LIKE "Bourbon";
 
 6.SELECT * FROM mysql_learning.poduct1
-WHERE name = "chips";
+WHERE name LIKE "%Chips%;
 
-7.
+7.SELECT * FROM mysql_learning.poduct1
+WHERE name = "H__R_";  
