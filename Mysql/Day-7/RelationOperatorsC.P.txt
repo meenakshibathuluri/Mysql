@@ -1,8 +1,8 @@
 1.SELECT * FROM mysql_learning.poduct1
-WHERE price <=1000;
+WHERE price <= 1000;
 
 2.SELECT * FROM mysql_learning.poduct1
-WHERE rating < 4.0;
+WHERE rating > 4.0;
 
 3.SELECT * FROM mysql_learning.product1
 WHERE brand LIKE "Puma";
@@ -11,10 +11,10 @@ WHERE brand LIKE "Puma";
 WHERE category = "%Jeans";
 
 5.SELECT * FROM mysql_learning.product1
-WHERE name LIKE "Bourbon";
+WHERE name LIKE "Bourbon%";
 
 6.SELECT * FROM mysql_learning.poduct1
 WHERE name LIKE "%Chips%;
 
 7.SELECT * FROM mysql_learning.poduct1
-WHERE name = "H__R_";  
+WHERE name = "%h__r_";  
