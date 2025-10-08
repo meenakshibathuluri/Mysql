@@ -1,0 +1,59 @@
+1.SELECT * FROM mysql_learning.poduct1
+WHERE category = "Clothing"
+AND price < 700;
+
+2.SELECT * FROM mysql_learning.poduct1
+WHERE (
+    brand LIKE "Denim"
+    AND rating > 4
+    );
+
+ 3.SELECT * FROM mysql_learning.poduct1
+WHERE price <= 1000
+AND rating > 4;
+
+4.SELECT * FROM mysql_learning.poduct1
+WHERE rating > 3.6
+AND price < 1000
+AND brand = "Puma";
+
+5.SELECT * FROM mysql_learning.poduct1
+WHERE brand = "Puma"
+OR brand = "Denim"
+OR brand = "Nike";
+
+6.SELECT * FROM mysql_learning.poduct1
+WHERE (
+    brand = "Redmi"
+    AND rating > 4
+)
+OR brand = "OnePlus";
+
+7.SELECT * FROM mysql_learning.poduct1
+WHERE (
+    brand = " Cadbury"
+    OR brand = "Britannia"
+)
+AND rating > 4.0
+AND name LIKE "%Cake%";
+
+8.SELECT * FROM mysql_learning.poduct1
+WHERE (
+    brand = "Puma"
+    AND rating > 3.5
+)
+OR (
+    brand = "Denim"
+    AND rating > 4.0
+);
+
+9.SELECT * FROM mysql_learning.poduct1
+WHERE (
+    brand = "Puma"
+    OR brand = "Nike"
+    OR brand = "Levi's"
+)
+AND (
+    name LIKE "%Shirt%"
+    AND name NOT LIKE "%Black%"
+);
