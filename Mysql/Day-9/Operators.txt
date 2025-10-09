@@ -1,0 +1,51 @@
+1.using and operator
+Example1: 
+SELECT * FROM mysql_learning.product1
+WHERE 
+category = "Clothing" AND price < 1000;
+
+Example2 : 
+SELECT * FROM mysql_learning.product1
+WHERE 
+category = "Clothing" 
+AND 
+price > 500 
+AND 
+rating > 4.0 
+AND
+name LIKE "%Shirt";
+
+2.using OR operator
+Example1 : 
+SELECT * fROM mysql_learning.product1
+WHERE
+name LIKE "Blue%" OR
+rating = 4.6 AND
+category = "Clothing";
+
+Example2:
+SELECT * FROM mysql_learning.product1
+WHERE brand = "Denim"
+OR price = 600 OR
+name like "%jeans";
+
+3.using not operator
+Example1: 
+SELECT * FROM mysql_learning.product1
+WHERE NOT brand = "Denim"
+OR price = 600 AND
+name like "Smart%";
+
+Example2 : 
+SELECT * FROM mysql_learning.product1
+WHERE NOT brand = "Denim"
+OR rating <= 3.0 AND
+name like "%Cake";
+
+4.using beteew operator
+Example1 : 
+SELECT * FROM mysql_learning.product1
+WHERE 
+rating between 2 and 4;
+
+Example2 : 
