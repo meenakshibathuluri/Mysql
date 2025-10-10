@@ -42,10 +42,33 @@ WHERE NOT brand = "Denim"
 OR rating <= 3.0 AND
 name like "%Cake";
 
-4.using beteew operator
+4.using between operator
 Example1 : 
 SELECT * FROM mysql_learning.product1
 WHERE 
 rating between 2 and 4;
 
 Example2 : 
+SELECT * FROM mysql_learning.product1
+WHERE 
+price between 600 and 1000;
+
+5.between operator
+SELECT * fROM mysql_learning.product1
+column1 between value1
+AND value2;
+Example1 : 
+SELECT name,price,brand 
+fROM mysql_learning.product1
+WHERE 
+  price between 1000
+  AND 5000;
+
+6.in operator
+SELECT * fROM mysql_learning.product1
+c1 in (v1,v2,v3.....);
+Example1 : 
+SELECT * fROM mysql_learning.product1
+WHERE
+brand in("puma","levi's","mufti","lee","Denim");
+
