@@ -1,0 +1,29 @@
+SELECT sum(score)
+FROM mysql_learning.player_match_details
+WHERE name = "stark";
+
+SELECT name,sum(score)
+FROM mysql_learning.player_match_details
+GROUP BY name;
+explaination:
+1.frist it will GROUP the player
+2.second it will sum the score
+3.and then it will show name and score
+
+SELECT name, year,sum(score) AS TotalScore
+FROM mysql_learning.player_match_details
+GROUP BY name,year;
+
+SELECT COUNT(*) FROM AS TotalScore
+mysql_learning.player_match_details
+WHERE name="ram", score>=50;
+
+SELECT name,COUNT(*) FROM AS TotalHalfCenturies
+mysql_learning.player_match_details
+WHERE score>=50
+GROUP BY name;
+explaination : 
+1.frist step is WHERE
+2.second step is GROUP
+3.thrid step is COUNT
+4.fouth step is name,COUNT or hole details
