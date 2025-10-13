@@ -1,0 +1,47 @@
+SELECT 
+name, SUM(sixes) AS TotalSixes, SUM(four) AS TotalFour
+FROM mysql_learning.player_match_details
+GROUP BY name
+ORDER BY TotalSixes DESC , TotalFour DESC;
+
+SELECT 
+year,COUNT(*) AS TotalMatches
+FROM mysql_learning.player_match_details
+GROUP BY name,year
+ORDER BY TotalMatches DESC
+Limit 10;
+
+SELECT
+AVG(score) AS AverageScore
+FROM mysql_learning.player_match_details
+WHERE year BETWEEN 2010 AND 2014
+GROUP BY name
+ORDER BY AverageScore ASC
+Limit 0;
+
+HAVINGCLAUSE : IT Used TO FILTER THE GROUP
+WHERE : IT Used TO FILTER THE ROWS
+ 
+ FRIST we have to use WHERE
+ second we have to use group
+ thrid we have to use having
+
+ SELECT 
+ name,COUNT(*) AS TotalHalfCenturies
+FROM mysql_learning.player_match_details
+WHERE score>=50
+GROUP BY name
+HAVING TotalHalfCenturies;
+frist step is WHERE
+2 step is group
+3 step is aggregate functions
+4 step is having
+
+SELECT
+AVG(score) AS AverageScore
+sum(score) AS TotalScore
+FROM mysql_learning.player_match_details
+WHERE year BETWEEN 2010 AND 2014
+GROUP BY name
+HAVING AverageScore < 75
+ORDER BY AverageScore ASC;
