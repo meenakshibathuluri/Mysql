@@ -1,4 +1,4 @@
-creating table:
+1.creating table:
 
 CREATE TABLE mysql_learning.Movies
 (
@@ -11,7 +11,7 @@ rating FLOAT,
 release_date DATE
 );
 
-insert values into the table:
+2.insert values into the table:
 
 INSERT INTO mysql_learning.Movies
 ( id, name, genre,budget_in_cr, collection_in_cr, rating, release_date)
@@ -37,27 +37,31 @@ VALUES
 (19, 'The God Father 2', 'Drama', 30, 45, 7.5, '1974-11-23'),
 (20, 'Interstellar', 'Sci-fi', 300, 600, 8.8, '2010-03-18');
 
-getting table:
-
+3.getting table:
 SELECT * FROM mysql_learning.Movies;
 
-budget is greater than 500 : 
-
+4.budget is greater than 500 : 
 SELECT id,name,(Collection_in_cr-budget_in_cr) AS profit
 FROM
 mysql_learning.movies
 WHERE (Collection_in_cr-budget_in_cr) >= 500;
 
-rating to 5 insead of 10 : 
+5.rating to 5 insead of 10 : 
+SET SQL_SAFE_UPDATES =0;
 
-SELECT * from mysql_learning.movies;
+UPDATE mysql_learning.Movies
+SET rating = rating/2;
 
-movies release in 2010 and month :
+SELECT * FROM mysql_learning.movies;
 
-SELECT strftime("%",release_date)
-from mysql_learning.movies;
+6.movies release in 2010 and month :
+SELECT month(release_date) AS month,COUNT(*) AS Totalmovies
+from mysql_learning.movies
+WHERE year(release_date)
+GROUP BY month(release_date)
+ORDER BY release_month;
 
-DESC mysql_learning.movies;
+
 
 
 
