@@ -1,0 +1,31 @@
+1.SELECT * FROM
+mysql_learning.movies
+WHERE genre = "Action" and year(release_date)=2010;
+
+2.SELECT name,month(release_date) AS ReleaseMonth
+FROM
+mysql_learning.movies
+WHERE month(release_date) IN (4,5,6);
+
+3.SELECT COUNT(*),month(release_date)
+FROM mysql_learning.movies
+GROUP BY month(release_date)
+ORDER BY totalMovies DESC 
+LIMIT 1;
+
+4.SELECT name,(collection_in_cr-budget_in_cr) AS profit ,release_date
+FROM mysql_learning.movies
+WHERE year(release_date) IN (2008,2009.2010);
+
+5,SELECT ceil(budget_in_cr),FLOOR (budget_in_cr),ROUND(budget_in_cr,1)
+FROM mysql_learning.movies;
+
+6.SELECT ROUND(AVG(rating))
+FROM mysql_learning.movies
+WHERE year(release_date) = 2010;
+
+7.SELECT name,collection_in_cr
+FROM mysql_learning.movies
+WHERE collection_in_cr>250;
+
+8.SELECT ROUND(2.36,1);
