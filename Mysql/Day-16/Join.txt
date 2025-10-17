@@ -1,0 +1,13 @@
+1.SELECT Department.name,departments.department_id
+FROM mysql_learning.Department
+INSERT JOIN mysql_learning.departments
+ON mysql_learning.departments.department_id = mysql_learning.departments.department_id;
+
+2.SELECT Department.name,departments.department_id
+FROM mysql_learning.Department
+LEFT JOIN mysql_learning.departments
+ON mysql_learning.departments.department_id = mysql_learning.departments.department_id;
+
+3.SELECT department.name,departments.department_name
+FROM mysql_learning.departments
+CROSS JOIN mysql_learning.departments;
