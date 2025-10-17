@@ -1,0 +1,19 @@
+1.CREATE TABLE mysql_learning.Department1
+(
+employee_id INTEGER,
+name VARCHAR(250),
+department_id INTEGER
+);
+
+2.INSERT INTO mysql_learning.Department1(
+employee_id,
+name,
+department_id
+) VALUES 
+(1, "Alice",1),
+(2,"Bob",2),
+(3,"Charlic",1),
+(4,"David",3),
+(5,"Eve",NULL);
+
+3.SELECT *FROM mysql_learning.Department1;
