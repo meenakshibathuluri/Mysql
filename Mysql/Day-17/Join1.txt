@@ -1,0 +1,44 @@
+1.
+SELECT mysql_learning.employees.name,mysql_learning.employees.department_id
+FROM mysql_learning.employees
+LEFT JOIN mysql_learning.department
+ON mysql_learning.employees.department_id = mysql_learning.department.department_id
+UNION 
+SELECT 
+mysql_learning.employees.name,mysql_learning.department.department_id
+FROM mysql_learning.employees
+RIGHT JOIN mysql_learning.department
+ON mysql_learning.employees.department_id = mysql_learning.department.department_id
+
+2.
+ALTER TABLE mysql_learning.employees
+ADD COLUMN manger_id INT;
+
+3.
+SELECT *FROM mysql_learning.employees;
+
+4.
+SET SQL_SAFE_UPDATE = 0;
+
+UPDATE mysql_learning.employees
+SET manager_id = 3 WHERE
+employee_id = 1;
+
+SELECT * FROM mysql_learning.employees;
+
+5.
+SELECT 
+FROM mysql_learning.employees emp,mysql_learning.employee_id emp1
+WHERE  emp.manager_id = emp1.employee.id;
+
+6.
+SELECT mysql_learning.employees.name,mysql_learning.employees.department_id
+FROM mysql_learning.employees
+LEFT JOIN mysql_learning.department
+ON mysql_learning.employees.department_id = mysql_learning.department.department_id
+UNION ALL
+SELECT 
+mysql_learning.employees.name,mysql_learning.department.department_id
+FROM mysql_learning.employees
+RIGHT JOIN mysql_learning.department
+ON mysql_learning.employees.department_id = mysql_learning.department.department_id
