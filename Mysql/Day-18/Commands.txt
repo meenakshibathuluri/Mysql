@@ -1,0 +1,22 @@
+ALTER TABLE mysql_learning.employees
+ADD manager_id INTEGER;
+
+SELECT isnull(manager_id) as ManagerIdNull
+FROM mysql_learning.employees
+WHERE employee_id = 1;
+
+CREATE TABLE mysql_learning.employeee2(
+employee_id INTEGER NOT NULL,
+employee_name VARCHAR(250) NOT NULL,
+salary INTEGER NULL,
+manager_id INTEGER NULL
+);
+
+SELECT mysql_learning.employee2
+name VARCHAR(250), NOT NULL DEFAULT "meena";
+
+single line comments  : 
+-- it is a single line comments
+
+multi line comments : 
+/* it is a multi line comments*/
