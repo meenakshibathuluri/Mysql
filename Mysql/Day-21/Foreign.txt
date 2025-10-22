@@ -1,0 +1,16 @@
+foreign key : It means relationship between two are more table
+
+
+CREATE TABLE mysql_learning.orders
+(
+    order_id INTEGER PRIMARY KEY,
+    order_date DATE NOT NULL,
+    amout INTEGER,
+    mobileNumber VARCHAR(250),
+    FOREIGN KEY (mobileNumber) REFEFENCES mysql_learning.Customer(mobileNumber)
+);
+
+SELECT * FROM mysql_learning.Customer;
+
+
+
