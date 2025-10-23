@@ -1,0 +1,12 @@
+entity type : collection of entities of same attribute with different values
+Example : 
+preson(entity), 
+1.aadhar_number : 123456789,
+name : "meena",
+age : 23;
+
+2.aadhar_number : 987654321,
+name : "usha",
+age :29;
+
+cardinality ratio : n : m

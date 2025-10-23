@@ -29,4 +29,12 @@ CREATE TABLE Orders (
     FOREIGN KEY (PersonID) REFERENCES Persons(PersonID)
 );
 
+ERModel : 
+entity : real world object and concept
+Example : john,google
+attribute : properties of this object
+Persons : name,age,gender
+
+key attribute : aadhar number of a Person, mobile number of a Person,order number of orders,
+
 
