@@ -1,0 +1,84 @@
+1.which of the following statement correctly describe a foreign key in a table t
+ans : 1 
+
+2.which of the following is/are true about the primary key?
+ans : 1
+
+3.how do ...............multiple rows in T1.
+ans : 1
+
+4.match the following
+ans : 1
+
+5.which of the following best describe an entity in ER model?
+ans : 2
+
+6 match the following
+ans : 1
+
+7.in which relationship type,we need to use junction table?
+ans : 3
+
+8.in a real-world ...........post entity?
+ans : 2
+
+9.how do we ...........only one row in t1.
+ans : 3
+
+10.state if the following.....same Attributes
+ans : true
+
+11.match the following
+ans : 2
+
+12.how do we represents.......single row in t1
+ans : 2
+
+13.in er model.....
+ans : 2
+
+14.consider a real-world.......
+ans : 2
+
+15.consider a real-world........
+ans : 1
+
+16.which of the following.....
+ans : 2
+
+17.which of the following is right ......
+ans : 1
+
+18.consider a one-to-many relationship........
+ans : 3
+
+19.consider a one-to-many relationship between.....
+ans : 1
+
+20.which of the following is the right.......
+ans : 1
+
+21.which of the following is/are entity type......
+ans : 3
+
+22.from the given scenario.....
+ans : 2
+
+23.how do we represents the relationship.....
+ans : 1
+
+24.how do we represents the Relation between.....
+ans : 4
+
+25.from the given scenario......
+ans : 2
+
+26.from the given scenario......
+ans : 4
+
+27.as per the mentioned scenario.....
+ans : 3
+
+28.which of the following is true about....
+ans : 3
+
