@@ -1,0 +1,27 @@
+CREATE VIEW view_customer AS
+SELECT Customer_id,name
+FROM mysql_learning.Customer;
+
+SHOW FULL TABLE WHERE TABLE_TYPE = 'MEENA';
+
+CREATE VIEW view_product AS
+SELECT name,price
+FROM mysql_learning.product;
+
+SHOW * FROM mysql_learning.product
+WHERE price>=1000
+Order BY price ASC;
+
+INSERT INTO view_product(name,price)
+VALUES("QWER",2000);
+
+DROP VIEW view_product;
+
+CREATE VIEW view_customer_address AS
+SELECT Customer.Customer_id,Customer.name,pin_code,address.city FROM
+mysql_learning.Customer
+JOIN
+mysql_learning.address ON Customer.Customer_id = address.Customer_id;
+
+SELECT * FROM view_customer_address;
+
