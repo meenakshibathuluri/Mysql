@@ -25,3 +25,8 @@ mysql_learning.address ON Customer.Customer_id = address.Customer_id;
 
 SELECT * FROM view_customer_address;
 
+CREATE WHERE address DROP JOIN pin_code price product view_product
+SELECT SHOW FROM FULL name mysql_learning MEENA view_customer view_customer_address view_product
+VALUES VIEW city CREATE Customer Customer_id pin_code view_customer view_customer_address 
+TABLE TABLE_TYPE INSERT INTO Customer_id ON Order QWER WHERE address AS ASC view_customer_address
+mysql_learning
