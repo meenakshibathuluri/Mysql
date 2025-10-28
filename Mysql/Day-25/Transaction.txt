@@ -1,0 +1,24 @@
+AcID 
+a : atomocity
+c : consistency
+i : isolation
+d : durablity
+
+Transaction : a Transaction is a logical group of one or more SQL statement.transactions are used in various scenarios such as backing,ecommerce,social,networks,booking,tickets etc.
+
+these four are commonly : 
+
+
+atomicity :either all sql statement or none are applied to the database.
+ statement : it this both debit and credit are should exguted
+
+consistency : transactions always leave the database in a consistent state.
+statement : in this success or failure it will show same
+
+isolation : multiple transactions can occur at the same time without adversely affecting the other.
+statement : handing multiple transactions
+
+durablity : changes of a successful transactions presisist even after  a system crash
+statement : payment successful
+
+
