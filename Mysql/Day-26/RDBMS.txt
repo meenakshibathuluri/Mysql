@@ -1,0 +1,6 @@
+Relational Database Management System(RDBMS)
+Definition : 
+1. RDBMS is a type of DBMS that stores data in tables (also called relations)
+2. each table contains rows (records) and columns (attributes/fields)
+3.table are related to each using keys
+
