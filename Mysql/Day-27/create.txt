@@ -1,0 +1,31 @@
+1.
+create table exam_schedule.datails(
+name varchar(250),
+course varchar(200),
+exam_data_time datetime,
+duration_in_sec int,
+pass_precentage float
+);
+
+2.
+CREATE TABLE exam_schedule.student(
+name varchar(250),
+date_of_birth date,
+address text
+);
+
+3.
+INSERT INTO exam_schedule.student(
+name,
+date_of_brith,
+address
+) values 
+("meena", 18, "bengaluru"),
+("rani", 26, "a.p"),
+("roja", 49, "kerala"
+);
+
+4.
+SELECT name
+FROM
+exam_schedule.student;
