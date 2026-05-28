@@ -1,0 +1,41 @@
+1.data -> collection of information
+2.dbms stand for -> data base management system, 1.it is a software ,used to store and access the data, 2. in a secured way.
+3.what is a data base ?
+collection of data
+4.how many type of database?
+they are classified into two type they are : 1.relational database
+                                             2.non-relational database
+  1.relational database is store in the form of tables. and table contain rows and columns
+and each table contain one header and one condition                                             
+inside one columns all the data should be same same datatype
+inside a row data can be different datatype
+
+5.sql datatype : 
+integers  - number
+float   - decimal value 
+varchar - single line of text
+text   -  multiple lines of text
+date   - present date
+time   -  to store only the time
+datetime - both time and date we using this
+boolean  - true or false
+
+6.what are the examples for relational database?
+ 1. mysql
+ 2.oracle
+ 3.sql srever
+ 4.postgress
+ 5.sql lite
+
+ 7.what are the examples for non-relational database?
+ 1.elastic search
+ 2.mongoDB
+3.redis
+4.casandra
+
+8.non-relational database how the data will stored?
+1.graph
+ 2.key-value
+ 3.column family 
+ 4.document
+
