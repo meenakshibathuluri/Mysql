@@ -1,0 +1,13 @@
+sql -> structured query language
+structured means syntax
+query means instrution which we are giving
+and it is also called as sequel 
+query or declarative language and we will tell here what we need insted of how to do 
+in sql we will use sql operations
+ most commonly used operations is CRUD operation
+ C -> create 
+ R -> retrive
+ U -> update
+ D -> delete
+
+create 
