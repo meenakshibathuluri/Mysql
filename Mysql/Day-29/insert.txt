@@ -9,5 +9,3 @@ in sql we will use sql operations
  R -> retrive
  U -> update
  D -> delete
-
-create 
