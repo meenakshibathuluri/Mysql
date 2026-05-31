@@ -9,3 +9,9 @@ in sql we will use sql operations
  R -> retrive
  U -> update
  D -> delete
+
+ create means to create the data how to store
+
+ update means to update the data and to add new data to it
+
+ delete means to delete the data and which we don't want  
